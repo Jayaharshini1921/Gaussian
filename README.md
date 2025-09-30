@@ -31,6 +31,7 @@ End the program
 Developed by: Jayaharshini s
 RegisterNumber: 212224100024
 '''
+```
 import numpy as np
 import sys
 n=int(input())
@@ -54,7 +55,7 @@ for i in range(n-2, -1, -1):
     X[i]=X[i]/a[i][i]
 for i in range(n):
     print('X%d = %0.2f'%(i,X[i]),end=' ')
-
+```
 ## Output:
 ![gaussian elimination]()
 <img width="1563" height="941" alt="Screenshot 2025-09-09 101234" src="https://github.com/user-attachments/assets/991234ec-6f8e-41a1-b589-4ef37c4a23b5" />
